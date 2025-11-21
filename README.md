@@ -57,6 +57,7 @@ kafka-order-system/
 └── README.md               
 
 🔧 How It Works
+
 -- Producer Flow
 
 - Connects to Kafka broker
