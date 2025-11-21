@@ -1,0 +1,21 @@
+{
+  "name": "kafka-order-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "producer": "node producer.js",
+    "consumer": "node consumer.js",
+    "dev:producer": "nodemon producer.js",
+    "dev:consumer": "nodemon consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "avsc": "^5.7.9",
+    "kafkajs": "^2.2.4"
+  }
+}
